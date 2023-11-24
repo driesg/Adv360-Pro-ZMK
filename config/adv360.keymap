@@ -47,11 +47,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL             &kp N1     &kp N2    &kp N3             &kp N4                  &kp N5  &tog 1                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB               &kp Q      &kp W     &kp E              &kp R                   &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&hm LEFT_CONTROL ESC  &kp A      &kp S     &kp D              &kp F                   &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT             &kp Z      &kp X     &kp C              &kp V                   &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2                 &kp GRAVE  &kp CAPS  &hm LEFT_ALT LEFT  &hm LEFT_COMMAND RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL         &kp N1     &kp N2    &kp N3             &kp N4                  &kp N5  &tog 1                                                       &mo 3      &kp N6  &kp N7                &kp N8              &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W     &kp E              &kp R                   &kp T   &none                                                        &none      &kp Y   &kp U                 &kp I               &kp O     &kp P     &kp BSLH
+&mt LCTRL ESCAPE  &kp A      &kp S     &kp D              &kp F                   &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RC(RG(C))  &none      &kp H   &kp J                 &kp K               &kp L     &kp SEMI  &mt RCTRL SQT
+&kp LSHFT         &kp Z      &kp X     &kp C              &kp V                   &kp B                        &kp HOME      &kp PG_UP                            &kp N   &kp M                 &kp COMMA           &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2             &kp GRAVE  &kp CAPS  &mt LEFT_ALT LEFT  &mt LEFT_COMMAND RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER      &kp SPACE          &mt RIGHT_COMMAND UP  &mt RIGHT_ALT DOWN  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
